@@ -1,6 +1,9 @@
 #ifndef SUBJECT_H
 #define SUBJECT_H
 
+#include "observer.h"
+#include <QVector>
+
 template<typename ... Args>
 class Subject
 {
